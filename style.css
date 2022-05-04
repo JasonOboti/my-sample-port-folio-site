@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mako', sans-serif;
+    
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(35402.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: aqua;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Fruktur', cursive;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 25px;
+  
+    
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+   
+}
+nav ul li :hover{
+    color: #b90b0b;
+    transition: 2.8s;
+}
+.btn{
+    background-color: #b90b0b;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2,1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%)
+}
+
+/*TYPEWRITER EFFECT*/
+h1 {
+    color: white;
+    padding-top:0em;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    
+  }
+  
+  * { color:#fff; text-decoration: none; font-family:'Times New Roman', Times, serif; }
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+}
+.newsletter form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #b90b0b;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #b90b0b;
+    color: aqua;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+
+}
+.newsletter form input:last-child:hover{
+    color: #e77f7f;
+    transform: scale(0.9,1);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: linear-gradient(180deg, black, #02021d);
+
+}
+
+.about img{
+    height: auto;
+    width: 390px;
+}
+.about-text{
+    width: 550px;
+   
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-text h2{
+    color: aqua;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.about-text h5{
+    color:aqua;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #b90b0b;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1s;
+    font-size: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #b90b0b;
+    cursor: pointer;
+}
+
+.service{
+    background-image: linear-gradient(180deg, #02021d, #101010);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 219px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 14px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #b90b0b;
+}
+
+h5{
+    font-size: 23px;
+    color: aqua;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #b90b0b;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 2s;
+    font-size: 20px;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #b90b0b;
+    cursor: pointer;
+}
+
+.footer{
+    align-items: flex-start;
+    background-image: linear-gradient(180deg, #101010, #101010);
+}
+@media screen and (max-width: 1200px) {
+    .card{
+        height: 500px;
+    }
+    .card .button {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .card {
+      height: auto;
+    }
+    .card .button {
+        font-size: 15px;
+    }
+    .about-text {
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 868px) {
+    .card .button {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 770px) {
+    nav {
+       padding-top: 10px;
+       padding: 10px;
+       flex-direction: column;
+       gap: 10px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .about-text {
+        width: auto;
+    }
+    .box {
+       flex-direction: column;
+    }
+    .card .button {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about-text {
+        flex-direction: column;
+        width: auto;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .newsletter form {
+        width: 320px;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .about img{
+        height: auto;
+        width: 350px;
+    }
+    h2.logo {
+        visibility: hidden;
+        font-size: 0px;
+    }
+    nav {
+        padding-top: 20px;
+        padding-left: 1px;
+        padding-right: 2px;
+        flex-direction: row;
+        
+        
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+          
+    }
+    .footer{
+        align-items: center;
+        padding-left: 0px;
+    }
+    .footer nav ul li {
+        padding-left: 40px;
+        justify-content: center;
+        padding-bottom: 30px;
+        
+    }
+}
+@media screen and (max-width: 300px) {
+    .newsletter form {
+        width: auto;
+    }
+    .about img {
+        width: 250px;
+    }
+    .card {
+        width: auto;
+        height: 400px;
+    }
+    .footer nav ul li {
+        padding: 15px;
+    }
+    nav ul li {
+        padding: 2px;
+    }
+}
+@media only screen and (orientation: landscape) {
+    .content {
+        top: 80%;
+    }
+}
